@@ -5,7 +5,7 @@
 rm -f output.txt
 
 # Trial 1
-java -classpath "../bin/" Histogram -i Input_01.txt -o output.txt
+java -classpath "../bin/" Histogram Input_01.txt output.txt
 
 # Diff against output 1
 diff "output.txt" "Solution_01.txt" > /dev/null 2>&1
@@ -16,7 +16,7 @@ else
 fi
 
 # Trial 2
-java -classpath "../bin/" Histogram -i Input_02.txt -o output.txt
+java -classpath "../bin/" Histogram Input_02.txt output.txt
 
 # Diff against output 2
 diff "output.txt" "Solution_02.txt" > /dev/null 2>&1

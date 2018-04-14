@@ -5,7 +5,7 @@
 rm -f output.txt
 
 # Trial
-java -classpath "../bin/" Histogram -i Input_01.txt -o output.txt
+java -classpath "../bin/" Histogram Input_01.txt output.txt
 
 # Verify
 if [ ! -f /tmp/foo.txt ]; then
