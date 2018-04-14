@@ -6,9 +6,11 @@
 TESTLOG="TestLog.txt"
 
 rm -f $TESTLOG
-echo "Test of Histogram.java at $(date)\n" > $TESTLOG
+printf "Test of Histogram.java at $(date)\n\n" > $TESTLOG
 
 ./01_OutputFileGenerated.sh >> $TESTLOG
 ./02_HistogramManualMatch.sh >> $TESTLOG
 
-echo "\nTest completed at $(date)" >> $TESTLOG
+printf "\nTest completed at $(date)" >> $TESTLOG
+
+cat $TESTLOG

@@ -1,2 +1,10 @@
-Test of Histogram.java at Sat Apr 14 14:45:18 CDT 2018
-Tests completed at Sat Apr 14 14:45:18 CDT 2018
+Test of Histogram.java at Sat Apr 14 21:44:56 UTC 2018
+
+Hello!!
+FAILURE 01: Output file not generated.
+Hello!!
+FAILURE 02a: Solutions do not match. 
+Hello!!
+FAILURE 02b: Solutions do not match. 
+
+Test completed at Sat Apr 14 21:44:56 UTC 2018
