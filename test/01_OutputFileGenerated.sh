@@ -8,9 +8,9 @@ rm -f output.txt
 java -classpath "../bin/" Histogram Input_01.txt output.txt
 
 # Verify
-if [ ! -f /tmp/foo.txt ]; then
-    printf "\nFAILURE 01: Output file not generated.\n"
+if [ ! -f output.txt ]; then
+    printf "FAILURE 01: Output file not generated.\n"
 else
-    printf "\nPASS 01: Output file generated.\n"
+    printf "PASS 01: Output file generated.\n"
 fi
 

@@ -10,9 +10,9 @@ java -classpath "../bin/" Histogram Input_01.txt output.txt
 # Diff against output 1
 diff "output.txt" "Solution_01.txt" > /dev/null 2>&1
 if [ $? -eq 0 ]; then
-    printf "\nPASS 02a: Solutions match.\n"
+    printf "PASS 02a: Solutions match.\n"
 else
-    printf "\nFAILURE 02a: Solutions do not match. \n"
+    printf "FAILURE 02a: Solutions do not match. \n"
 fi
 
 # Trial 2
@@ -21,7 +21,7 @@ java -classpath "../bin/" Histogram Input_02.txt output.txt
 # Diff against output 2
 diff "output.txt" "Solution_02.txt" > /dev/null 2>&1
 if [ $? -eq 0 ]; then
-    printf "\nPASS 02b: Solutions match.\n"
+    printf "PASS 02b: Solutions match.\n"
 else
-    printf "\nFAILURE 02b: Solutions do not match. \n"
+    printf "FAILURE 02b: Solutions do not match. \n"
 fi 

@@ -1,56 +1,7 @@
-Test of Histogram.java at Sat Apr 14 23:33:08 UTC 2018
+Test of Histogram.java at Sun Apr 15 03:35:59 UTC 2018
 
-
-Hello!!
-Adding next word: hickory
-Adding next word: dickory
-Adding next word: dock
-Adding next word: the
-Adding next word: mouse
-Adding next word: ran
-Adding next word: up
-Adding next word: the
-Adding next word: clock
-Adding next word: the
-Adding next word: clock
-Adding next word: struck
-Adding next word: one
-Adding next word: the
-Adding next word: mouse
-Adding next word: ran
-Adding next word: down
-Adding next word: hickory
-Adding next word: dickory
-Adding next word: dock
-
-FAILURE 01: Output file not generated.
-
-Hello!!
-Adding next word: hickory
-Adding next word: dickory
-Adding next word: dock
-Adding next word: the
-Adding next word: mouse
-Adding next word: ran
-Adding next word: up
-Adding next word: the
-Adding next word: clock
-Adding next word: the
-Adding next word: clock
-Adding next word: struck
-Adding next word: one
-Adding next word: the
-Adding next word: mouse
-Adding next word: ran
-Adding next word: down
-Adding next word: hickory
-Adding next word: dickory
-Adding next word: dock
-
+PASS 01: Output file generated.
 FAILURE 02a: Solutions do not match. 
+PASS 02b: Solutions match.
 
-Hello!!
-
-FAILURE 02b: Solutions do not match. 
-
-Test completed at Sat Apr 14 23:33:08 UTC 2018
+Test completed at Sun Apr 15 03:35:59 UTC 2018
